@@ -29,20 +29,35 @@ package uc.technospire.premccexam;
 //}
 
 // Encapsulation
-class Cat{
-    private String gender;
-    private String age;
-    
-    public void setGenderAge(String a, String b){
-        gender = a;
-        age = b;
-    }
-    
-    public String getGender(){
-        return gender;
-    }
-    
-    public String getAge(){
-        return age;
-    }
+//class Cat{
+//    private String gender;
+//    private String age;
+//    
+//    public void setGenderAge(String a, String b){
+//        gender = a;
+//        age = b;
+//    }
+//    
+//    public String getGender(){
+//        return gender;
+//    }
+//    
+//    public String getAge(){
+//        return age;
+//    }
+//}
+
+// Abstraction
+abstract class Cat {
+  abstract void hungry();
+
+  public void meow() {
+    System.out.println("meow");
+  }
+}
+
+class BritishShortHair extends Cat {
+  public void hungry() {
+    System.out.println("meowww, i'm hungry");
+  }
 }

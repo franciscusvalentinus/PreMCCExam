@@ -8,15 +8,17 @@ package uc.technospire.premccexam;
  *
  * @author franciscusvalentinus
  */
-public class Persia extends Cat {
-    String breed;
-    
-    public Persia(String id, String gender, String age, String breed){
-        super(id, gender, age);
-        this.breed = breed;
-    }
-    
-    void IntroducePersia(){
-        System.out.println("Ras kucing : " + breed);
-    }
-}
+
+// Inheritance
+//public class Persia extends Cat {
+//    String breed;
+//    
+//    public Persia(String id, String gender, String age, String breed){
+//        super(id, gender, age);
+//        this.breed = breed;
+//    }
+//    
+//    void IntroducePersia(){
+//        System.out.println("Ras kucing : " + breed);
+//    }
+//}
