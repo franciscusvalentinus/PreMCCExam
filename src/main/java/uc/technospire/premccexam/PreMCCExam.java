@@ -12,7 +12,7 @@ public class PreMCCExam {
 
     public static void main(String[] args) {
         // Inheritance
-        Cat cat = new Cat();
+//        Cat cat = new Cat();
         
         // Polymorphism Overriding
 //        Persia simon = new Persia("1", "Male", "24", "Persia");
@@ -23,6 +23,10 @@ public class PreMCCExam {
 //        
 //        Cat joko = new Cat("2", "Male", "12");
 //        joko.Introduce();
+
+        // Polymorphism Overloading
+        Cat cat = new Cat();
+        cat.Introduce();
 
         // Encapsulation
 //        Cat joko = new Cat();

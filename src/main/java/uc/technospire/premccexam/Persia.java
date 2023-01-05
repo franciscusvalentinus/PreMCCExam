@@ -10,9 +10,9 @@ package uc.technospire.premccexam;
  */
 
 // Inheritance
-public class Persia extends Cat {
-    String breed;
-}
+//public class Persia extends Cat {
+//    String breed;
+//}
 
 // Polymorphism Overriding
 //public class Persia extends Cat {
