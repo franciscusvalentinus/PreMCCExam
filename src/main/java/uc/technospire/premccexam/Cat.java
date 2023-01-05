@@ -8,20 +8,41 @@ package uc.technospire.premccexam;
  *
  * @author franciscusvalentinus
  */
-public class Cat {
-    String id;
-    String gender;
-    String age;
+
+// Inheritance
+//public class Cat {
+//    String id;
+//    String gender;
+//    String age;
+//    
+//    public Cat(String id, String gender, String age){
+//        this.id = id;
+//        this.gender = gender;
+//        this.age = age;
+//    }
+//    
+//    void Introduce(){
+//        System.out.println("Id kucing : " + id);
+//        System.out.println("Jenis kelamin kucing : " + gender);
+//        System.out.println("Usia kucing : " + age);
+//    }
+//}
+
+// Encapsulation
+class Cat{
+    private String gender;
+    private String age;
     
-    public Cat(String id, String gender, String age){
-        this.id = id;
-        this.gender = gender;
-        this.age = age;
+    public void setGenderAge(String a, String b){
+        gender = a;
+        age = b;
     }
     
-    void Introduce(){
-        System.out.println("Id kucing : " + id);
-        System.out.println("Jenis kelamin kucing : " + gender);
-        System.out.println("Usia kucing : " + age);
+    public String getGender(){
+        return gender;
+    }
+    
+    public String getAge(){
+        return age;
     }
 }
