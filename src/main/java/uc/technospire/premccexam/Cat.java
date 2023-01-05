@@ -10,6 +10,13 @@ package uc.technospire.premccexam;
  */
 
 // Inheritance
+public class Cat {
+    String id;
+    String gender;
+    String age;
+}
+
+// Polymorphism Overriding
 //public class Cat {
 //    String id;
 //    String gender;
@@ -48,16 +55,16 @@ package uc.technospire.premccexam;
 //}
 
 // Abstraction
-abstract class Cat {
-  abstract void hungry();
-
-  public void meow() {
-    System.out.println("meow");
-  }
-}
-
-class BritishShortHair extends Cat {
-  public void hungry() {
-    System.out.println("meowww, i'm hungry");
-  }
-}
+//abstract class Cat {
+//  abstract void hungry();
+//
+//  public void meow() {
+//    System.out.println("meow");
+//  }
+//}
+//
+//class BritishShortHair extends Cat {
+//  public void hungry() {
+//    System.out.println("meowww, i'm hungry");
+//  }
+//}

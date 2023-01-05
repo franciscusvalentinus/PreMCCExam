@@ -12,6 +12,9 @@ public class PreMCCExam {
 
     public static void main(String[] args) {
         // Inheritance
+        Cat cat = new Cat();
+        
+        // Polymorphism Overriding
 //        Persia simon = new Persia("1", "Male", "24", "Persia");
 //        simon.Introduce();
 //        simon.IntroducePersia();
@@ -28,9 +31,9 @@ public class PreMCCExam {
 //        System.out.println(joko.getAge());
         
         // Abstraction
-        BritishShortHair britishshorthair = new BritishShortHair();
-        
-        britishshorthair.meow();
-        britishshorthair.hungry();
+//        BritishShortHair britishshorthair = new BritishShortHair();
+//        
+//        britishshorthair.meow();
+//        britishshorthair.hungry();
     }
 }
