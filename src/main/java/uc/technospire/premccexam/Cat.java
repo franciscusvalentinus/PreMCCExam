@@ -17,31 +17,31 @@ package uc.technospire.premccexam;
 //}
 
 // Polymorphism Overloading
-public class Cat {
-    String id;
-    String gender;
-    String age;
-    
-    public Cat(){
-        System.out.println("Create new object");
-    }
-    
-    public Cat(String id, String gender, String age){
-        this.id = id;
-        this.gender = gender;
-        this.age = age;
-    }
-    
-    void Introduce(){
-        System.out.println("Kucing tidak dapat diidentifikasi");
-    }
-    
-    void Introduce(String id, String gender, String age){
-        System.out.println("Id kucing : " + id);
-        System.out.println("Jenis kelamin kucing : " + gender);
-        System.out.println("Usia kucing : " + age);
-    }
-}
+//public class Cat {
+//    String id;
+//    String gender;
+//    String age;
+//    
+//    public Cat(){
+//        System.out.println("Create new object");
+//    }
+//    
+//    public Cat(String id, String gender, String age){
+//        this.id = id;
+//        this.gender = gender;
+//        this.age = age;
+//    }
+//    
+//    void Introduce(){
+//        System.out.println("Kucing tidak dapat diidentifikasi");
+//    }
+//    
+//    void Introduce(String id, String gender, String age){
+//        System.out.println("Id kucing : " + id);
+//        System.out.println("Jenis kelamin kucing : " + gender);
+//        System.out.println("Usia kucing : " + age);
+//    }
+//}
 
 // Polymorphism Overriding
 //public class Cat {
@@ -82,16 +82,16 @@ public class Cat {
 //}
 
 // Abstraction
-//abstract class Cat {
-//  abstract void hungry();
-//
-//  public void meow() {
-//    System.out.println("meow");
-//  }
-//}
-//
-//class BritishShortHair extends Cat {
-//  public void hungry() {
-//    System.out.println("meowww, i'm hungry");
-//  }
-//}
+abstract class Cat {
+  abstract void hungry();
+
+  public void meow() {
+    System.out.println("meow");
+  }
+}
+
+class BritishShortHair extends Cat {
+  public void hungry() {
+    System.out.println("meowww, i'm hungry");
+  }
+}

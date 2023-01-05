@@ -25,8 +25,8 @@ public class PreMCCExam {
 //        joko.Introduce();
 
         // Polymorphism Overloading
-        Cat cat = new Cat();
-        cat.Introduce();
+//        Cat cat = new Cat();
+//        cat.Introduce();
 
         // Encapsulation
 //        Cat joko = new Cat();
@@ -35,9 +35,9 @@ public class PreMCCExam {
 //        System.out.println(joko.getAge());
         
         // Abstraction
-//        BritishShortHair britishshorthair = new BritishShortHair();
-//        
-//        britishshorthair.meow();
-//        britishshorthair.hungry();
+        BritishShortHair britishshorthair = new BritishShortHair();
+        
+        britishshorthair.meow();
+        britishshorthair.hungry();
     }
 }
